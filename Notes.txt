@@ -1,0 +1,11 @@
+We add "proxy": "http://localhost:5000" to package.json of client so that we don't need to write something 
+like axios.get('http://localhost:5000/api/items'). We can just write axios.get('api/items').
+
+Use Concurrently to run React as well as API server concurrently.
+
+
+    "client": "npm start --prefix client", // Here prefix is added to move to folder client, we could also use cd.. type
+    "dev": "concurrently \"npm run server\" \"npm run client\"" //we could also separately run each server
+
+    "client-install": "npm install --prefix client", // If you don't want to cd to client to install node_modules, simply run:
+        npm run client-install
