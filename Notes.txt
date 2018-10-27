@@ -1,3 +1,4 @@
+Add your MongoDB URI in config/keys.js
 We add "proxy": "http://localhost:5000" to package.json of client so that we don't need to write something 
 like axios.get('http://localhost:5000/api/items'). We can just write axios.get('api/items').
 

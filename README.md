@@ -1,6 +1,10 @@
-npm install to install node modules
-Add your MongoDB URI in config/keys.js
-To run the project use 
-    npm start
-    OR
-    npm run server
+# MERN Shopping List
+```bash
+    # To install node modules
+    npm install
+    npm run client-install
+    # To run the project use 
+    npm run client And npm run server
+    # Or simply
+    npm run dev
+```
